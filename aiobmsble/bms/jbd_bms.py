@@ -66,6 +66,7 @@ class BMS(BaseBMS):
             )
             for pattern in (
                 "JBD-*",
+                "N-?????BL*",  # e.g. N-12100BL
                 "SX1*",  # Supervolt v3
                 "SX60*",  # Supervolt Ultra
                 "SBL-*",  # SBL
